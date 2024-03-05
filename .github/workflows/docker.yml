@@ -32,4 +32,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: | #
-            aleantunezz/practica5-1:latest
+            aleantunezzz/practica5-1:latest
