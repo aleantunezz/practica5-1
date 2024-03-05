@@ -1,4 +1,4 @@
-name: Publish Docker image
+name: Publicar imagen Docker
 
 on:
   push:
@@ -38,6 +38,6 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: |
-            jamtur01/animal-farm-nodejs:latest
-            ghcr.io/jamtur01/animal-farm-nodejs:latest
+          tags: | #
+            raul-profesor/practica_7.1:latest
+            ghcr.io/raul-profesor/practica_7.1:latest
